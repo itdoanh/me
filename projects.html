@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dự án | Đoàn Văn Doanh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loader-screen"><div class="loader-ring"></div></div>
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="main-content">
+    <div class="page-container page-transition">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">Portfolio</div>
+        <h1 class="section-title">
+          Dự án <span class="gradient-text">Tiêu biểu</span>
+        </h1>
+        <p class="section-subtitle">
+          Từ nền tảng mạng xã hội quy mô lớn đến hạ tầng server tự chủ — mỗi dự án là một bước tiến trong hành trình kiến tạo công nghệ.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-header">
+            <div>
+              <h3>
+                <i class="fas fa-globe" style="color: var(--color-cyan); margin-right: 10px;"></i>
+                Nền tảng Mạng Xã Hội & E-commerce
+              </h3>
+              <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 2px;">Startup Project</p>
+            </div>
+            <span class="project-date"><i class="fas fa-calendar"></i> 2026 - Hiện tại</span>
+          </div>
+
+          <div class="tech-stack">
+            <span class="tech-tag">Go</span>
+            <span class="tech-tag">ScyllaDB</span>
+            <span class="tech-tag">AI-Agents</span>
+            <span class="tech-tag">Google Antigravity</span>
+            <span class="tech-tag">Client-Server</span>
+          </div>
+
+          <ul class="project-details">
+            <li>Thiết kế kiến trúc hệ thống kết hợp giữa giải trí trực tuyến và thương mại điện tử, định hướng phục vụ lượng truy cập quy mô lớn.</li>
+            <li>Xây dựng nền móng Backend đột phá với Go và cơ sở dữ liệu NoSQL ScyllaDB, giải quyết bài toán độ trễ thấp (low-latency) và xử lý đồng thời (high-concurrency).</li>
+            <li>Áp dụng luồng làm việc Context-Driven với AI Agents để lên khung kiến trúc, tự động hóa quy trình Unit Test và Refactoring, tối ưu <strong>40% thời gian setup</strong> dự án.</li>
+          </ul>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-header">
+            <div>
+              <h3>
+                <i class="fas fa-ship" style="color: var(--color-purple); margin-right: 10px;"></i>
+                Dự án Cánh Buồm Xanh
+              </h3>
+              <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 2px;">Lead Developer</p>
+            </div>
+            <span class="project-date"><i class="fas fa-calendar"></i> 2025 - 2026</span>
+          </div>
+
+          <div class="tech-stack">
+            <span class="tech-tag">RESTful API</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">Client-Server Architecture</span>
+          </div>
+
+          <ul class="project-details">
+            <li>Phát triển toàn trình nền tảng web quy mô quốc gia nhằm vinh danh và kết nối cộng đồng giáo viên xuất sắc.</li>
+            <li>Thiết kế Database Schema và chuẩn hóa luồng giao tiếp Client-Server, tối ưu hóa các câu lệnh truy vấn SQL để đảm bảo hệ thống phản hồi mượt mà dưới tải trọng cao.</li>
+          </ul>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-header">
+            <div>
+              <h3>
+                <i class="fas fa-server" style="color: var(--color-green); margin-right: 10px;"></i>
+                Hạ tầng Server Vật lý
+              </h3>
+              <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 2px;">Personal Lab & Infrastructure</p>
+            </div>
+            <span class="project-date"><i class="fas fa-calendar"></i> 2024 - Nay</span>
+          </div>
+
+          <div class="tech-stack">
+            <span class="tech-tag">Linux Server</span>
+            <span class="tech-tag">Network Security</span>
+            <span class="tech-tag">Port Forwarding</span>
+          </div>
+
+          <ul class="project-details">
+            <li>Tự thiết lập, cấu hình và quản trị cụm máy chủ vật lý độc lập (Web Server, Database Server) phục vụ các dự án thực tế.</li>
+            <li>Thiết lập tường lửa, Port Forwarding và kiến trúc mạng an toàn, đảm bảo kiểm soát hoàn toàn luồng dữ liệu mà không phụ thuộc vào các dịch vụ Cloud bên thứ ba.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/background.js"></script>
+  <script src="js/main.js"></script>
+  <script>renderNavigation('projects');</script>
+</body>
+</html>

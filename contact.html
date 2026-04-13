@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ | Đoàn Văn Doanh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loader-screen"><div class="loader-ring"></div></div>
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="main-content">
+    <div class="page-container page-transition">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">Kết nối</div>
+        <h1 class="section-title">
+          Liên hệ <span class="gradient-text">Với Tôi</span>
+        </h1>
+        <p class="section-subtitle">
+          Sẵn sàng hợp tác cho các dự án mới. Hãy kết nối với tôi qua bất kỳ kênh nào bên dưới.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div data-aos="fade-right" data-aos-delay="100">
+          <div class="contact-info-list">
+            <a href="mailto:me@itdoanh.dev" class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <div class="contact-label">Email</div>
+                <div class="contact-value">me@itdoanh.dev</div>
+              </div>
+            </a>
+
+            <a href="tel:+84345598581" class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <div class="contact-label">Điện thoại</div>
+                <div class="contact-value">+84 345 598 581</div>
+              </div>
+            </a>
+
+            <a href="https://itdoanh.dev" target="_blank" rel="noopener" class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div>
+                <div class="contact-label">Website</div>
+                <div class="contact-value">itdoanh.dev</div>
+              </div>
+            </a>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <div class="contact-label">Địa chỉ</div>
+                <div class="contact-value">Bắc Từ Liêm, Hà Nội, VN</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Grid -->
+          <div style="margin-top: 30px;">
+            <h3 style="font-size: 1rem; color: var(--text-secondary); margin-bottom: 16px; font-weight: 600;">
+              <i class="fas fa-share-alt" style="color: var(--color-cyan); margin-right: 8px;"></i>Mạng xã hội
+            </h3>
+            <div class="social-grid">
+              <a href="https://github.com/itdoanh" target="_blank" rel="noopener" class="social-card">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="https://youtube.com/@itdoanh" target="_blank" rel="noopener" class="social-card">
+                <i class="fab fa-youtube"></i>
+                <span>YouTube</span>
+              </a>
+              <a href="https://tiktok.com/@itdoanh" target="_blank" rel="noopener" class="social-card">
+                <i class="fab fa-tiktok"></i>
+                <span>TikTok</span>
+              </a>
+              <a href="https://facebook.com/itdoanh" target="_blank" rel="noopener" class="social-card">
+                <i class="fab fa-facebook-f"></i>
+                <span>Facebook</span>
+              </a>
+              <a href="https://x.com/itdoanh" target="_blank" rel="noopener" class="social-card">
+                <i class="fab fa-x-twitter"></i>
+                <span>X (Twitter)</span>
+              </a>
+              <a href="https://instagram.com/itdoanh" target="_blank" rel="noopener" class="social-card">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div data-aos="fade-left" data-aos-delay="200">
+          <div class="glass-card">
+            <h3 style="font-size: 1.1rem; margin-bottom: 24px;">
+              <i class="fas fa-paper-plane" style="color: var(--color-cyan); margin-right: 10px;"></i>
+              Gửi tin nhắn
+            </h3>
+            <form class="contact-form" id="contactForm" onsubmit="return handleContactSubmit(event)">
+              <div class="form-group">
+                <input type="text" placeholder="Họ và tên" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Email của bạn" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Tiêu đề">
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Nội dung tin nhắn..." required></textarea>
+              </div>
+              <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">
+                <i class="fas fa-paper-plane"></i> Gửi tin nhắn
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/background.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    renderNavigation('contact');
+
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('button[type="submit"]');
+      const originalHTML = btn.innerHTML;
+      btn.innerHTML = '<i class="fas fa-check"></i> Đã gửi thành công!';
+      btn.style.background = 'linear-gradient(135deg, #00ff88, #00f0ff)';
+      setTimeout(() => {
+        btn.innerHTML = originalHTML;
+        btn.style.background = '';
+        e.target.reset();
+      }, 3000);
+      return false;
+    }
+  </script>
+</body>
+</html>

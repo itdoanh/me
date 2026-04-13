@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Học vấn | Đoàn Văn Doanh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loader-screen"><div class="loader-ring"></div></div>
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="main-content">
+    <div class="page-container page-transition">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">Nền tảng</div>
+        <h1 class="section-title">
+          Học <span class="gradient-text">Vấn</span>
+        </h1>
+        <p class="section-subtitle">
+          Nền tảng kiến thức vững chắc từ hệ thống giáo dục chính quy, kết hợp tự học không ngừng.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <!-- VHU -->
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="glass-card timeline-card">
+            <div class="timeline-date">
+              <i class="fas fa-calendar-alt"></i> 2023 - Hiện tại
+            </div>
+            <h3>Đại học Công nghiệp Việt - Hung</h3>
+            <div class="timeline-subtitle">Kỹ sư Công nghệ thông tin (Candidate)</div>
+            <p>
+              Sở hữu tư duy hệ thống mạnh mẽ qua các học phần cốt lõi. Nắm vững nền tảng về Linux, Hệ quản trị CSDL và Kiến trúc phần mềm.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px;">
+              <div class="education-score">
+                <i class="fas fa-star"></i>
+                Lập trình Windows: 9.6/10
+              </div>
+              <div class="education-score">
+                <i class="fas fa-star"></i>
+                Lập trình C++: 8.9/10
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- GTVT Nam Dinh -->
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="glass-card timeline-card">
+            <div class="timeline-date">
+              <i class="fas fa-calendar-alt"></i> 2021 - 2023
+            </div>
+            <h3>Trường Trung cấp GTVT Nam Định</h3>
+            <div class="timeline-subtitle">Trung cấp Điện công nghiệp</div>
+            <p>
+              Tạo tiền đề vững chắc cho tư duy lập trình nhúng và thiết kế IoT.
+            </p>
+            <div style="margin-top: 12px;">
+              <div class="education-score" style="margin-bottom: 12px;">
+                <i class="fas fa-award"></i>
+                Xếp loại: Khá (8.0/10)
+              </div>
+            </div>
+            <ul>
+              <li>Lập trình Vi điều khiển</li>
+              <li>PLC cơ bản</li>
+              <li>Kỹ thuật xung số</li>
+              <li>Vận hành hệ thống điện thực tế</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/background.js"></script>
+  <script src="js/main.js"></script>
+  <script>renderNavigation('education');</script>
+</body>
+</html>

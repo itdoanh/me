@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kỹ năng | Đoàn Văn Doanh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loader-screen"><div class="loader-ring"></div></div>
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="main-content">
+    <div class="page-container page-transition">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">Công nghệ</div>
+        <h1 class="section-title">
+          Kỹ năng <span class="gradient-text">Công nghệ</span>
+        </h1>
+        <p class="section-subtitle">
+          Bộ công cụ và năng lực kỹ thuật tôi sử dụng để kiến tạo những hệ thống chất lượng cao.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- AI-Assisted Dev -->
+        <div class="glass-card skill-category" data-aos="fade-up" data-aos-delay="100">
+          <div class="category-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3>AI-Assisted Development</h3>
+          <p>
+            Sử dụng cấp độ chuyên gia các công cụ Google Antigravity, Cursor, GitHub Copilot. Áp dụng luồng Vibe Coding / Context-Driven qua việc tinh chỉnh cấu hình ngữ cảnh (<code>.cursorrules</code>), kết hợp đa mô hình (Gemini, Claude, GPT) để tự động hóa viết logic phức tạp.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Google Antigravity</span>
+            <span class="skill-tag">Cursor</span>
+            <span class="skill-tag">GitHub Copilot</span>
+            <span class="skill-tag">Vibe Coding</span>
+            <span class="skill-tag">Gemini</span>
+            <span class="skill-tag">Claude</span>
+            <span class="skill-tag">GPT</span>
+          </div>
+        </div>
+
+        <!-- Backend & DB -->
+        <div class="glass-card skill-category" data-aos="fade-up" data-aos-delay="200">
+          <div class="category-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3>Backend & Database</h3>
+          <p>
+            Xây dựng hệ thống và API hiệu năng cao với Go (cốt lõi), Laravel, Node.js. Thiết kế schema và tối ưu truy vấn cho CSDL quan hệ (MySQL, SQL Server) và CSDL phân tán chịu tải cao (ScyllaDB).
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Go</span>
+            <span class="skill-tag">Laravel</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">RESTful API</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQL Server</span>
+            <span class="skill-tag">ScyllaDB</span>
+          </div>
+        </div>
+
+        <!-- System & Core -->
+        <div class="glass-card skill-category" data-aos="fade-up" data-aos-delay="300">
+          <div class="category-icon">
+            <i class="fas fa-microchip"></i>
+          </div>
+          <h3>System & Core</h3>
+          <p>
+            Lập trình hệ thống (C/C++, Windows API). Nắm vững tư duy quản trị Linux Server, cấu hình mạng lưới (Networking) và triển khai bảo mật hạ tầng thực tế.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">C/C++</span>
+            <span class="skill-tag">Windows API</span>
+            <span class="skill-tag">Linux Server</span>
+            <span class="skill-tag">Networking</span>
+            <span class="skill-tag">Security</span>
+            <span class="skill-tag">Port Forwarding</span>
+          </div>
+        </div>
+
+        <!-- Frontend & UI/UX -->
+        <div class="glass-card skill-category" data-aos="fade-up" data-aos-delay="400">
+          <div class="category-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>Frontend & UI/UX</h3>
+          <p>
+            Thành thạo HTML5, CSS3, JavaScript (ES6+). Tư duy thiết kế lấy người dùng làm trung tâm (User-Centric) qua Figma, Photoshop, Illustrator. Kỹ năng hậu kỳ Media (Premiere, After Effects).
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Photoshop</span>
+            <span class="skill-tag">Illustrator</span>
+            <span class="skill-tag">Premiere</span>
+            <span class="skill-tag">After Effects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/background.js"></script>
+  <script src="js/main.js"></script>
+  <script>renderNavigation('skills');</script>
+</body>
+</html>

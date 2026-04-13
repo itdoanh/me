@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giới thiệu | Đoàn Văn Doanh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loader-screen"><div class="loader-ring"></div></div>
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="main-content">
+    <div class="page-container page-transition">
+      <!-- Section Header -->
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">Giới thiệu</div>
+        <h1 class="section-title">
+          Về <span class="gradient-text">Tôi</span>
+        </h1>
+        <p class="section-subtitle">
+          Lập trình viên Full-stack mang tư duy thiết kế hệ thống phân tán, tiên phong ứng dụng AI để tối ưu hóa quy trình phát triển phần mềm.
+        </p>
+      </div>
+
+      <!-- About Content -->
+      <div class="about-grid">
+        <div data-aos="fade-right" data-aos-delay="100">
+          <div class="glass-card">
+            <div class="about-text">
+              <p>
+                Tôi là <strong>Đoàn Văn Doanh</strong> — một lập trình viên Full-stack sở hữu tư duy thiết kế hệ thống phân tán (<em>Distributed Systems</em>). Tôi tin rằng công nghệ tốt nhất là công nghệ giải quyết được vấn đề thực tế với hiệu suất tối ưu.
+              </p>
+              <p>
+                Tôi tiên phong ứng dụng <strong>AI-Assisted Development & Vibe Coding</strong> — khai thác sâu các công cụ như Google Antigravity, Cursor để rút ngắn chu kỳ phát triển và nâng cao chất lượng mã nguồn lên mức tối đa.
+              </p>
+
+              <div class="highlight-box">
+                <p>
+                  <i class="fas fa-quote-left" style="color: var(--color-cyan); margin-right: 8px;"></i>
+                  Sở hữu năng lực thực thi toàn trình: từ thiết kế UI/UX, xây dựng RESTful API hiệu năng cao với Go/ScyllaDB, đến tự chủ triển khai hạ tầng Server vật lý.
+                </p>
+              </div>
+
+              <p>
+                Định hướng của tôi là xây dựng các kiến trúc hệ thống linh hoạt (<em>Scalable</em>), chịu tải cao và sẵn sàng mở rộng cho quy mô dữ liệu lớn. Mỗi dòng code tôi viết đều hướng đến sự bền vững và khả năng mở rộng.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-delay="200">
+          <div class="glass-card">
+            <h3 style="font-size: 1.1rem; margin-bottom: 20px; color: var(--color-cyan);">
+              <i class="fas fa-info-circle" style="margin-right: 8px;"></i>Thông tin cá nhân
+            </h3>
+            <div class="info-grid">
+              <div class="info-item">
+                <i class="fas fa-user"></i>
+                <div>
+                  <div class="info-label">Họ tên</div>
+                  <div class="info-value">Đoàn Văn Doanh</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-briefcase"></i>
+                <div>
+                  <div class="info-label">Vị trí</div>
+                  <div class="info-value">Full Stack Developer</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <div class="info-label">Email</div>
+                  <div class="info-value">me@itdoanh.dev</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <div class="info-label">Điện thoại</div>
+                  <div class="info-value">+84 345 598 581</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-globe"></i>
+                <div>
+                  <div class="info-label">Website</div>
+                  <div class="info-value">itdoanh.dev</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <div class="info-label">Địa chỉ</div>
+                  <div class="info-value">Bắc Từ Liêm, Hà Nội</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Stats -->
+          <div class="glass-card" style="margin-top: 20px;">
+            <h3 style="font-size: 1.1rem; margin-bottom: 16px; color: var(--color-cyan);">
+              <i class="fas fa-chart-bar" style="margin-right: 8px;"></i>Điểm nổi bật
+            </h3>
+            <div style="display: flex; flex-direction: column; gap: 12px;">
+              <div style="display: flex; align-items: center; gap: 12px;">
+                <span class="badge-glow"><i class="fas fa-robot"></i></span>
+                <span style="font-size: 0.88rem;">AI-Assisted Development Expert</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 12px;">
+                <span class="badge-glow"><i class="fas fa-server"></i></span>
+                <span style="font-size: 0.88rem;">Self-hosted Infrastructure</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 12px;">
+                <span class="badge-glow"><i class="fas fa-database"></i></span>
+                <span style="font-size: 0.88rem;">Distributed Database (ScyllaDB)</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 12px;">
+                <span class="badge-glow"><i class="fas fa-palette"></i></span>
+                <span style="font-size: 0.88rem;">UI/UX Design Thinking</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/background.js"></script>
+  <script src="js/main.js"></script>
+  <script>renderNavigation('about');</script>
+</body>
+</html>
